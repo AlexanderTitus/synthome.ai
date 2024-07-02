@@ -151,7 +151,7 @@ main::after {
 
 .hidden {
     display: none;
-  }
+}
 
 @media (max-width: 480px) {
     .App-header h1 {
@@ -199,3 +199,6 @@ main::after {
 
 
 }
+
+
+/* AKfycbwQnPU3pUAIBR2QxNOrPSy5cTxjqlAg4KzA0MsAxaqpz1RzsQikmrnogsTO4JEaCIpl */
