@@ -149,10 +149,6 @@ main::after {
     }
 }
 
-.hidden {
-    display: none;
-}
-
 @media (max-width: 480px) {
     .App-header h1 {
         font-size: 3.5em;
@@ -199,4 +195,3 @@ main::after {
 
 
 }
-
