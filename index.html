@@ -34,10 +34,6 @@
         content: '...';
       }
     }
-
-    .hidden {
-      display: none;
-    }
   </style>
 </head>
 
@@ -89,10 +85,11 @@
         }
 
         messageElement.textContent = "Thank you for your interest! We'll keep you updated.";
-        emailForm.classList.add('hidden'); // Hide form elements
+        emailInput.value = '';
       } catch (error) {
         console.error('Fetch error:', error);
         messageElement.textContent = 'An error occurred. Please try again.';
+      } finally {
         submitButton.textContent = 'Get early access';
         submitButton.classList.remove('loading');
         submitButton.disabled = false;
